@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl"
+       version="1.0"
+       class="in-text">
+  <info>
+    <title>Numeric Brackets</title>
+    <id>http://www.zotero.org/styles/numeric-brackets-local</id>
+    <link href="http://www.zotero.org/styles/numeric-brackets-local"
+          rel="self"/>
+    <category citation-format="numeric"/>
+    <updated>2026-11-08T00:00:00+00:00</updated>
+  </info>
+
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography second-field-align="flush">
+    <layout>
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <text macro="entry"/>
+    </layout>
+  </bibliography>
+
+  <macro name="entry">
+    <names variable="author">
+      <name name-as-sort-order="all" initialize-with=". "
+            delimiter=", " and="text"/>
+    </names>
+    <text variable="title" prefix=". "/>
+    <text variable="container-title" prefix=". "/>
+    <text variable="volume" prefix=" "/>
+    <text variable="issue" prefix="(" suffix=")"/>
+    <text variable="page" prefix=", "/>
+    <date variable="issued" prefix=" (" suffix=")">
+      <date-part name="year"/>
+    </date>
+    <text value="."/>
+  </macro>
+</style>
