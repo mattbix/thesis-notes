@@ -1,3 +1,17 @@
+# Quarto cache and auxiliary files
 .quarto/
-.DS_Store
+_freeze/
+*.quarto_ipynb*
 *.log
+*.aux
+*.toc
+*.tex
+
+# Loose images (the HTML uses the copies inside *_files/)
+fig_*.png
+
+# Code folder (optional, remove this if you want the code pushed)
+code/
+
+# OS files
+.DS_Store
