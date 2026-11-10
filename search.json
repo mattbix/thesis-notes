@@ -1,5 +1,25 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Welcome to my thesis research notes.\n\n\nSpectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words\nA note based on discussions with Professor Steven Evans",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#recent-updates",
+    "href": "index.html#recent-updates",
+    "title": "Home",
+    "section": "",
+    "text": "Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words\nA note based on discussions with Professor Steven Evans",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "2026-11-03-trs.html",
     "href": "2026-11-03-trs.html",
     "title": "Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words",
@@ -151,16 +171,6 @@
     "crumbs": [
       "Thesis notes",
       "TRS spectrum (2026-11-03)"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Thesis notes\nWelcome to my thesis research notes.",
-    "crumbs": [
-      "Home"
     ]
   }
 ]
