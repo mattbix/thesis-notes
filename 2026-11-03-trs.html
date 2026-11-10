@@ -100,13 +100,13 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1bdbca75b362e6c5a8c09207907ff998.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -161,41 +161,67 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Thesis notes — Matthew Bernard</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./2026-11-03-trs.html" aria-current="page"> 
-<span class="menu-text">TRS spectrum (2026-11-03)</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./2026-11-03-trs.html">Thesis notes</a></li><li class="breadcrumb-item"><a href="./2026-11-03-trs.html">TRS spectrum (2026-11-03)</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Thesis notes — Matthew Bernard</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Thesis notes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2026-11-03-trs.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">TRS spectrum (2026-11-03)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -233,7 +259,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./2026-11-03-trs.html">Thesis notes</a></li><li class="breadcrumb-item"><a href="./2026-11-03-trs.html">TRS spectrum (2026-11-03)</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words</h1>
 <p class="subtitle lead">A note based on discussions with Professor Steven Evans</p>
@@ -355,7 +381,7 @@ P = \frac{1}{6}\begin{pmatrix}
 \end{pmatrix}.
 $$
 <p>Because <span class="math inline">\(P = P_s \oplus P_a\)</span>, the spectrum of <span class="math inline">\(P\)</span> is the union of the spectra of the two blocks, and the block decomposition is what makes the dense diagonalization feasible. The directed graph <span class="math inline">\(\mathcal{G}_4\)</span> for <span class="math inline">\(n=2\)</span>, shown below, makes the transition structure visible: vertices are the six states, an edge <span class="math inline">\(\sigma \to \tau\)</span> has weight <span class="math inline">\(P_4(\sigma, \tau)\)</span>, self-loops occur with probability at least <span class="math inline">\(1/4\)</span>, and every column sums to <span class="math inline">\(1\)</span>, confirming double stochasticity.</p>
-<div id="cell-fig-graph4" class="cell" data-fig-height="10" data-fig-width="10" data-execution_count="1">
+<div id="cell-fig-graph4" class="cell" data-fig-height="10" data-fig-width="10" data-execution_count="2">
 <details class="code-fold">
 <summary>Show code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> networkx <span class="im">as</span> nx</span>
@@ -807,7 +833,7 @@ $$
 <div id="fig-graph4" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-graph4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="2026-11-03-trs_files/figure-html/fig-graph4-output-1.png" width="708" height="758" class="figure-img">
+<img src="2026-11-03-trs_files/figure-html/fig-graph4-output-1.png" width="709" height="758" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-graph4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Directed graph <span class="math inline">\(\mathcal{G}_4\)</span> of the colored top-to-random chain (edge width proportional to weight). Every column sums to <span class="math inline">\(1\)</span>, so <span class="math inline">\(P_4\)</span> is doubly stochastic.
@@ -833,7 +859,7 @@ Figure&nbsp;1: Directed graph <span class="math inline">\(\mathcal{G}_4\)</span>
 1 - \frac{k}{2n}, \qquad k = 0, 2, 3, \dots, 2n,
 \]</span></p>
 <p>with <span class="math inline">\(k=1\)</span> absent for all <span class="math inline">\(n \ge 1\)</span>. The figure below plots the spectrum for <span class="math inline">\(n=4,6,8\)</span>, obtained by diagonalizing the full transition matrix <span class="math inline">\(P_n\)</span> (not just the blocks) for each <span class="math inline">\(n\)</span>. The horizontal bands are the values <span class="math inline">\(1 - k/(2n)\)</span> with <span class="math inline">\(k = 0, 2, 3, \dots, 2n\)</span>; the band at <span class="math inline">\(1 - 1/(2n)\)</span> is absent, and the multiplicities grow with <span class="math inline">\(n\)</span> as the band thickens.</p>
-<div id="cell-fig-eigenvalues" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="2">
+<div id="cell-fig-eigenvalues" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="3">
 <details class="code-fold">
 <summary>Show code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -876,7 +902,7 @@ Figure&nbsp;1: Directed graph <span class="math inline">\(\mathcal{G}_4\)</span>
 <div id="fig-eigenvalues" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-eigenvalues-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="2026-11-03-trs_files/figure-html/fig-eigenvalues-output-1.png" width="662" height="470" class="figure-img">
+<img src="2026-11-03-trs_files/figure-html/fig-eigenvalues-output-1.png" width="663" height="470" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-eigenvalues-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Eigenvalues of <span class="math inline">\(P_n\)</span> for <span class="math inline">\(n \in \{4, 6, 8\}\)</span>. The bands are the surviving values <span class="math inline">\(1 - k/(2n)\)</span>; the <span class="math inline">\(k=1\)</span> band is absent.
@@ -889,7 +915,7 @@ Figure&nbsp;2: Eigenvalues of <span class="math inline">\(P_n\)</span> for <span
 <section id="computational-limit" class="level2">
 <h2 class="anchored" data-anchor-id="computational-limit">Computational limit</h2>
 <p>I ran the computation for <span class="math inline">\(n=1,\dots,9\)</span>. The <span class="math inline">\(n=9\)</span> case (<span class="math inline">\(48{,}620\)</span> states) already took considerable time and memory on my laptop, and <span class="math inline">\(n=10\)</span> (<span class="math inline">\(\binom{20}{10}=184{,}756\)</span> states) was not attempted because it exceeded the available memory. The state count <span class="math inline">\(\binom{2n}{n}\)</span> is well approximated by <span class="math inline">\(4^n/\sqrt{\pi n}\)</span>, as the figure below shows, which is why the dense <span class="math inline">\(n \le 9\)</span> computation is the practical limit: at <span class="math inline">\(n=10\)</span> the symmetry blocks are <span class="math inline">\(92{,}378 \times 92{,}378\)</span>, beyond the memory of a laptop. This is the practical limit of the dense block diagonalization on the hardware at hand; the trace method below scales further but I have not pushed it past <span class="math inline">\(n=9\)</span>.</p>
-<div id="cell-fig-stirling" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="3">
+<div id="cell-fig-stirling" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="4">
 <details class="code-fold">
 <summary>Show code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
@@ -940,7 +966,7 @@ Figure&nbsp;3: Stirling approximation <span class="math inline">\(4^n/\sqrt{\pi 
 \mathrm{tr}(P^m) = \sum_{k=0}^{2n} m_k \left(1 - \frac{k}{2n}\right)^m,
 \]</span></p>
 <p>computing <span class="math inline">\(\mathrm{tr}(P^m)\)</span> exactly for <span class="math inline">\(m=1,\dots,2n+5\)</span> by propagating the identity through <span class="math inline">\(P_s\)</span> and <span class="math inline">\(P_a\)</span>, since <span class="math inline">\(\mathrm{tr}(P^m) = \mathrm{tr}(P_s^m) + \mathrm{tr}(P_a^m)\)</span>. Solving the resulting power-sum system for <span class="math inline">\(m_k\)</span> and rounding to integers recovered the multiplicities exactly: they matched the block-diagonalization values for all <span class="math inline">\(n \le 9\)</span>, summed to <span class="math inline">\(\binom{2n}{n}\)</span>, and made <span class="math inline">\(n=9\)</span> feasible without diagonalizing the full <span class="math inline">\(\binom{2n}{n} \times \binom{2n}{n}\)</span> matrix. This approach relies on Newton’s identities relating power sums to elementary symmetric polynomials (and hence the characteristic polynomial), as detailed in Gantmacher’s treatise on matrix theory <span class="citation" data-cites="gantmacher1959">[<a href="#ref-gantmacher1959" role="doc-biblioref">1</a>]</span>.</p>
-<div id="code-route1" class="cell" data-execution_count="4">
+<div id="code-route1" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Show code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> itertools</span>
@@ -1108,7 +1134,7 @@ n = 7  (2n = 14,  states = 3432)
 <section id="the-partition-function-and-mixing-time" class="level2">
 <h2 class="anchored" data-anchor-id="the-partition-function-and-mixing-time">The partition function and mixing time</h2>
 <p>The spectral data can be encoded in a partition function, <span class="math inline">\(Z(\beta) = \sum_{\sigma \in \mathcal{S}_n} e^{-\beta H(\sigma)}\)</span> with <span class="math inline">\(H(\sigma) = \sum_{i=1}^{n-1} \mathbf{1}\{\sigma_i = \sigma_{i+1}\}\)</span>, which is a transfer-matrix quantity that counts adjacent equal pairs. At <span class="math inline">\(\beta = 0\)</span> it equals <span class="math inline">\(\binom{n}{n/2}\)</span>, the number of states; at large <span class="math inline">\(\beta\)</span> it is dominated by the configurations with the most adjacent equal pairs. The figure below plots <span class="math inline">\(Z(\beta)\)</span> for <span class="math inline">\(n=4,6,8\)</span>; the ordering and the decay rate are governed by the same <span class="math inline">\(1 - k/(2n)\)</span> gaps that appear in the spectrum, so the partition function is a generating-function reformulation of the spectral problem rather than an independent object.</p>
-<div id="cell-fig-partition" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="5">
+<div id="cell-fig-partition" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="6">
 <details class="code-fold">
 <summary>Show code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -1148,7 +1174,7 @@ n = 7  (2n = 14,  states = 3432)
 <div id="fig-partition" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-partition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="2026-11-03-trs_files/figure-html/fig-partition-output-1.png" width="660" height="467" class="figure-img">
+<img src="2026-11-03-trs_files/figure-html/fig-partition-output-1.png" width="663" height="469" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-partition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: Partition function <span class="math inline">\(Z(\beta)\)</span> vs.&nbsp;<span class="math inline">\(\beta\)</span> for <span class="math inline">\(n=4, 6, 8\)</span>. At <span class="math inline">\(\beta=0\)</span> it equals the state count <span class="math inline">\(\binom{n}{n/2}\)</span>; the decay is controlled by the spectral gaps.
@@ -1158,7 +1184,7 @@ Figure&nbsp;4: Partition function <span class="math inline">\(Z(\beta)\)</span> 
 </div>
 </div>
 <p>The mixing-time question is the next in the thesis’s list of research questions: does <span class="math inline">\(P_n\)</span> mix at the parent scale <span class="math inline">\(n \log n\)</span>, or at a slower colored scale? The simulation below tracks the total variation distance to uniform for <span class="math inline">\(n=4,6,8\)</span>. The distance flattens at a level set by the simulation horizon and the number of trials, not by the chain’s mixing; the horizontal segments are an artifact of too few trials relative to the state count. The informative feature is the order-of-magnitude separation: <span class="math inline">\(n=4\)</span> mixes in tens of steps, <span class="math inline">\(n=6\)</span> in under a hundred, <span class="math inline">\(n=8\)</span> in a few hundred, consistent with the parent scale rather than a <span class="math inline">\(n^2\)</span> colored scale. A rigorous cutoff theorem would need to match the leading constant, which is item 4 in the thesis’s research questions.</p>
-<div id="cell-fig-mixing" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="6">
+<div id="cell-fig-mixing" class="cell" data-fig-height="5" data-fig-width="7" data-execution_count="7">
 <details class="code-fold">
 <summary>Show code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -1206,7 +1232,7 @@ Figure&nbsp;4: Partition function <span class="math inline">\(Z(\beta)\)</span> 
 <div id="fig-mixing" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-mixing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="2026-11-03-trs_files/figure-html/fig-mixing-output-1.png" width="661" height="470" class="figure-img">
+<img src="2026-11-03-trs_files/figure-html/fig-mixing-output-1.png" width="663" height="470" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mixing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Total variation distance to uniform vs.&nbsp;time, for <span class="math inline">\(n=4,6,8\)</span>. The plateaus are a simulation artifact; the order-of-magnitude separation is consistent with the parent <span class="math inline">\(n \log n\)</span> scale.

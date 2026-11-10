@@ -1,17 +1,15 @@
-# Quarto cache and auxiliary files
+# Local Quarto state and execution cache
 .quarto/
-_freeze/
-*.quarto_ipynb*
+.jupyter_cache/
+
+# macOS files
+.DS_Store
+
+# Temporary LaTeX files
 *.log
 *.aux
 *.toc
 *.tex
 
-# Loose images (the HTML uses the copies inside *_files/)
-fig_*.png
-
-# Code folder (optional, remove this if you want the code pushed)
-code/
-
-# OS files
-.DS_Store
+# Temporary Jupyter notebooks
+*.quarto_ipynb*

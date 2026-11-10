@@ -1,9 +1,8 @@
 ---
-title: "Thesis notes — Matthew Bernard"
+title: "Home"
 ---
 
-Advised by Professor Steven Evans, UC Berkeley.
+# Thesis notes
 
-## Notes
+Welcome to my thesis research notes.
 
-- [2026-11-03 — Spectral degeneracies of a topmost-to-random shuffle on balanced binary words](2026-11-03-trs.html)

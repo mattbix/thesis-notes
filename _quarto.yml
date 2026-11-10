@@ -7,12 +7,19 @@ project:
 
 website:
   title: "Thesis notes — Matthew Bernard"
-  navbar:
-    left:
+
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
       - text: "Home"
-        href: index.html
-      - text: "TRS spectrum (2026-11-03)"
-        href: 2026-11-03-trs.html
+        href: index.qmd
+
+      - section: "Thesis notes"
+        contents:
+          - text: "TRS spectrum (2026-11-03)"
+            href: 2026-11-03-trs.qmd
 
 format:
   html:
@@ -25,6 +32,6 @@ format:
     fig-cap-location: bottom
     embed-resources: false
 
-
 execute:
   freeze: auto
+  cache: true
