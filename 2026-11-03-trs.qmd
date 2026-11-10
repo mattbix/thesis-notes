@@ -28,6 +28,7 @@ execute:
   echo: true
   warning: false
   message: false
+  freeze: true
 ---
 
 ## State space
