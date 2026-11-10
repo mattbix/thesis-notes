@@ -1,8 +1,6 @@
 ---
-title: ""
+title: "Thesis notes"
 ---
-
-# Thesis notes
 
 Welcome to my thesis research notes.
 
