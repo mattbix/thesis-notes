@@ -4,6 +4,8 @@ title: "Thesis notes"
 
 Welcome to my thesis research notes.
 
+[GitHub repositories](https://github.com/mattbix){.btn .btn-primary}
+
 ## Recent updates
 
 [Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words](2026-11-03-trs.html)
