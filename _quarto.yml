@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: .
+  execute-dir: project
 
 website:
   title: "Thesis notes — Matthew Bernard"
@@ -21,3 +22,6 @@ format:
     math: mathjax
     fig-cap-location: bottom
     embed-resources: false
+
+execute:
+  freeze: true
