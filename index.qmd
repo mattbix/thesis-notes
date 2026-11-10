@@ -8,4 +8,4 @@ Welcome to my thesis research notes.
 
 [Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words](2026-11-03-trs.html)
 
-*A note based on discussions with Professor Steven Evans*
+*A note based on discussions with Professor Steven N. Evans, 2026-11-03*
