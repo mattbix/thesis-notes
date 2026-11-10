@@ -1,6 +1,6 @@
 ---
 title: "Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words"
-subtitle: "A note based on discussions with Professor Steven Evans"
+subtitle: "A note based on discussions with Professor Steven N. Evans"
 date: "2026-11-03"
 jupyter: stat243
 format:
