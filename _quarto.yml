@@ -4,7 +4,7 @@ project:
   execute-dir: project
 
 website:
-  title: "Thesis notes — Matthew Bernard"
+  title: "Research & Code — Matthew Bernard"
   site-url: "https://mattbix.github.io/thesis-notes/"
   sidebar:
     style: "docked"
