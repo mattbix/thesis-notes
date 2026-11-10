@@ -6,3 +6,19 @@ title: "Home"
 
 Welcome to my thesis research notes.
 
+## Recent updates
+
+<a href="2026-11-03-trs.html"
+   style="font-size: 1.05rem;
+          font-weight: 500;
+          color: #2767a5;
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 3px;">
+Spectral Degeneracies of a Topmost-to-Random Shuffle on Balanced Binary Words
+</a>
+
+<p style="font-size: 0.9rem; font-weight: 400; color: #6c757d; margin-top: 0.4rem;">
+A note based on discussions with Professor Steven Evans
+</p>
+
